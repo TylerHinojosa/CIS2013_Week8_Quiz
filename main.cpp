@@ -23,5 +23,6 @@ int main(){
 	cout << "You would have " << findDimes((change % 25)) << " dime(s)" << endl;
 	cout << "You would have " << findNickles(((change % 25) % 10)) << " nickel(s)" << endl;
 	cout << "and " << (((change % 25) % 10) % 5) << " penny(s)" << endl;
-	
+	cout << "Thank you and have a nice day!";
 }
+	
